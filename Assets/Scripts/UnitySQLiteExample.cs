@@ -63,7 +63,7 @@ public class UnitySQLiteExample : MonoBehaviour
 
 		int affectedRows = 0;
 
-		var cmdCreate = dbConn.CreateCommand("CREATE TABLE test (test_id INTEGER, test_seq INTEGER)");
+		//var cmdCreate = dbConn.CreateCommand("CREATE TABLE test (test_id INTEGER, test_seq INTEGER)");
 		//affectedRows = cmdCreate.ExecuteNonQuery();
 		//text.text = affectedRows.ToString();
 
