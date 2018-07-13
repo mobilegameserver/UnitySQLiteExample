@@ -17,7 +17,7 @@ public class UnitySQLiteExample : MonoBehaviour
 	public Text text;
 
 	// Use this for initialization
-	void Start()
+	void Start1()
 	{
 
 	}
@@ -28,7 +28,7 @@ public class UnitySQLiteExample : MonoBehaviour
 
 	}
 
-	public void Test()
+	void Start()
 	{
 		var dbName = "sqlite3.sq3";
 		var dbPath = string.Empty;
